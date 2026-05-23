@@ -1,0 +1,125 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+.sv_main .CO-State-content .form-title {
+    border: 2px solid grey;
+    box-shadow: 2px 2px 0 1px #000000;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: 440px;
+    margin: 0 auto 40px auto;
+    box-sizing: border-box;
+}
+.sv_main .bottom-line {
+    border-bottom: 2px solid #000000;
+    box-shadow: 0 -4px 0 2px grey;
+}
+.sv_main .left-content{
+  text-align: right;
+}
+.sv_main .right-content {
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    border: 1px solid #000;
+}
+.sv_main .right-content p{
+  font-size: 0.85em;
+  line-height: 1.1em;
+  font-style: italic;
+}
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+.col-md-1 { flex: 0 0 auto; width: 8.33333333%; }
+.col-md-2 { flex: 0 0 auto; width: 16.66666667%; }
+.col-md-3 { flex: 0 0 auto; width: 25%; }
+.col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+.col-md-5 { flex: 0 0 auto; width: 41.66666667%; }
+.col-md-6 { flex: 0 0 auto; width: 50%; }
+.col-md-7 { flex: 0 0 auto; width: 58.33333333%; }
+.col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+.col-md-9 { flex: 0 0 auto; width: 75%; }
+.col-md-10 { flex: 0 0 auto; width: 83.33333333%; }
+.col-md-11 { flex: 0 0 auto; width: 91.66666667%; }
+.col-md-12 { flex: 0 0 auto; width: 100%; }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 862px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 1000px;
+  }
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+.col-md-1 { flex: 0 0 auto; width: 8.33333333%; }
+.col-md-2 { flex: 0 0 auto; width: 16.66666667%; }
+.col-md-3 { flex: 0 0 auto; width: 25%; }
+.col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+.col-md-5 { flex: 0 0 auto; width: 41.66666667%; }
+.col-md-6 { flex: 0 0 auto; width: 50%; }
+.col-md-7 { flex: 0 0 auto; width: 58.33333333%; }
+.col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+.col-md-9 { flex: 0 0 auto; width: 75%; }
+.col-md-10 { flex: 0 0 auto; width: 83.33333333%; }
+.col-md-11 { flex: 0 0 auto; width: 91.66666667%; }
+.col-md-12 { flex: 0 0 auto; width: 100%; }
+
+}
+
+
+

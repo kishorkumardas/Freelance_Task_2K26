@@ -1,0 +1,210 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+
+.sv_main .navbar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #575757;
+}
+.sv_main .logo-container {
+    width: 400px;
+    border-right: 1px solid #575757;
+    padding: 0 10px;
+}
+.sv_main .address-container h3{
+  font-size: 1em;
+}
+
+.sv_main .logo-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+.sv_main .table-box {
+    border: 1px solid #000;
+}
+.sv_main .border-right {
+    border-right: 1px solid #000;
+}
+.sv_main .px-5 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.sv_main .py-5{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.sv_main .w-40 {
+    width: 40%;
+    position: relative;
+    top: -5px;
+}
+
+.sv_main .italic {
+  font-style: italic;
+}
+.sv_main .form-center {
+    display: flex;
+    align-items: center;
+}
+
+.sv_main .p2-navbar .logo2 img {
+    max-width: 100%;
+    height: auto;
+}
+.sv_main .border-card h3{
+  text-decoration: underline;
+}
+.sv_main .border-card {
+    border: 2px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.sv_main .section-title {
+    display: flex;
+    align-items: center;
+    background: #ededee;
+    border-radius: 10px;
+    padding: 15px 25px;
+}
+.sv_main .custom-footer{
+  display: flex;
+  align-items: center;
+}
+.sv_main .q-text{
+   background: #ededee;
+   padding: 8px 50px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   margin-right: 5px;
+}
+
+.sv_main .contact-text{
+  border: 2px solid #ededee;
+  padding: 6px 25px;
+  flex-grow: 1;
+}
+
+.sv_main .box-list {
+    list-style: disc;
+    padding-left: 30px;
+}
+.sv_main .h-300{
+  height: 300px;
+}
+
+
+.sv_main .left-content{
+  text-align: right;
+}
+.sv_main .right-content {
+    height: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    border: 1px solid #000;
+}
+.sv_main .right-content p{
+  font-size: 0.85em;
+  line-height: 1.1em;
+  font-style: italic;
+}
+
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+.sv_main .custom-form-control::placeholder{
+  color: #000;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+.col-md-1 { flex: 0 0 auto; width: 8.33333333%; }
+.col-md-2 { flex: 0 0 auto; width: 16.66666667%; }
+.col-md-3 { flex: 0 0 auto; width: 25%; }
+.col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+.col-md-5 { flex: 0 0 auto; width: 41.66666667%; }
+.col-md-6 { flex: 0 0 auto; width: 50%; }
+.col-md-7 { flex: 0 0 auto; width: 58.33333333%; }
+.col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+.col-md-9 { flex: 0 0 auto; width: 75%; }
+.col-md-10 { flex: 0 0 auto; width: 83.33333333%; }
+.col-md-11 { flex: 0 0 auto; width: 91.66666667%; }
+.col-md-12 { flex: 0 0 auto; width: 100%; }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 900px;
+  }
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+.col-md-1 { flex: 0 0 auto; width: 8.33333333%; }
+.col-md-2 { flex: 0 0 auto; width: 16.66666667%; }
+.col-md-3 { flex: 0 0 auto; width: 25%; }
+.col-md-4 { flex: 0 0 auto; width: 33.33333333%; }
+.col-md-5 { flex: 0 0 auto; width: 41.66666667%; }
+.col-md-6 { flex: 0 0 auto; width: 50%; }
+.col-md-7 { flex: 0 0 auto; width: 58.33333333%; }
+.col-md-8 { flex: 0 0 auto; width: 66.66666667%; }
+.col-md-9 { flex: 0 0 auto; width: 75%; }
+.col-md-10 { flex: 0 0 auto; width: 83.33333333%; }
+.col-md-11 { flex: 0 0 auto; width: 91.66666667%; }
+.col-md-12 { flex: 0 0 auto; width: 100%; }
+
+}
+
+
+
