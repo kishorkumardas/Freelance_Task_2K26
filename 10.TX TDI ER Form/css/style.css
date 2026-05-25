@@ -1,0 +1,342 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+.sv_main .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sv_main .west-virginia-content .form-title {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.sv_main .line-height {
+  line-height: 1.5;
+}
+
+.sv_main .disc-list {
+  list-style: disc !important;
+  padding-left: 45px !important;
+}
+
+.sv_main .disc-list li {
+  margin-bottom: 5px;
+}
+
+.sv_main .inner-list {
+  padding-left: 50px !important;
+  list-style: circle !important;
+  margin-top: 5px !important;
+}
+
+.sv_main .table-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sv_main table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.sv_main td {
+  border: 1px solid #333;
+  padding: 10px 10px;
+  vertical-align: middle;
+}
+
+.sv_main th {
+  background-color: #d9d9d9;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #333;
+  vertical-align: middle;
+}
+
+.sv_main td:first-child {
+  text-align: left;
+}
+
+.sv_main td:not(:first-child) {
+  text-align: center;
+}
+
+.sv_main .col-coverage {
+  width: 45%;
+}
+
+.sv_main .col-health {
+  width: 14%;
+}
+.sv_main .col-wcn {
+  width: 17%;
+}
+
+.sv_main .col-wc {
+  width: 25%;
+}
+.sv_main .p2-th .col-coverage {width: 36%;}
+.sv_main .p2-th .col-health { width: 20%;}
+.sv_main .p2-th .col-wcn { width: 15%;}
+.sv_main .p2-th .col-wc { width: 25%;}
+.sv_main .section-title {
+      font-size: 18px;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    .checkbox-group {
+      margin-left: 28px;
+    }
+
+.sv_main .checkbox-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.sv_main input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-top: 1px;
+      cursor: pointer;
+    }
+
+.sv_main .answer-options {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.sv_main .answer-options div {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+.sv_main .custom-ml-25{
+  margin-left: 25px!important;
+}
+.sv_main .rt-3{
+  position: relative!important;
+  top: 3px!important;
+}
+.sv_main .font-sm{
+  font-size: 0.9em!important;
+}
+.sv_main .w-20 {
+  width: 20% !important;
+}
+
+.sv_main .w-30 {
+  width: 30% !important;
+}
+
+.sv_main .w-40 {
+  width: 40% !important;
+}
+.sv_main .pxy-10 {
+  padding: 10px;
+}
+
+.sv_main .custom-mr-30 {
+  margin-right: 30px !important;
+}
+
+.sv_main .custom-ml-50 {
+  margin-left: 50px !important;
+}
+
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 862px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}

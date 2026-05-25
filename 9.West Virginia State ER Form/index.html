@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO_State_ER_Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://natera.auxiform.com/auxisurvey/content/maz_form.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="sv_main ">
+    <div class="page-wrapper">
+        <div class="container">
+
+            <div class="west-virginia-content">
+                <!-- Page One Content  -->
+                <div class="page-one custom-mb-50">
+                    <h2 class="form-title custom-mb-15">REQUEST FOR INDEPENDENT EXTERNAL REVIEW OF HEALTHCARE DECISION
+                    </h2>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-10">ENROLLEE INFORMATION</h3>
+                        <div class="row">
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-mr-10">
+                                    <label class="text-nowrap">Enrollee's Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${LastName}, ${FirstName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Patient's Name: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${LastName}, ${FirstName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Mailing Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Email Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-mr-10">
+                                    <label class="text-nowrap">Phone Numbers: Daytime </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Evening</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Enrollee's Insurance ID#: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${Memberld}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Insurance Claim/Reference #:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-10">INFORMATION ABOUT YOUR EMPLOYER</h3>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Employer's Name: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Employer's Phone Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="custom-mb-10">Is the insurance you have through your employer a self-funded
+                                    plan? <input type="text" class="custom-form-control border-bottom-1 w-20"> (If you
+                                    are not certain please check with your employer).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-10">INFORMATION ABOUT YOUR INSURANCE COVERAGE</h3>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Health Insurance Company's Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${PayorName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Insurer Mailing Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-10 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Insurer Telephone Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Person at Health Insurance Company Involved with Your
+                                        Appeal:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-10">INFORMATION ABOUT YOUR TREATING HEALTHCARE PROVIDER</h3>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Name of Healthcare Provider:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="Natera Inc." disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Type of Provider:</label>
+                                    <input type="checkbox" disabled> <span class="text-nowrap">Medical Doctor</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <span>or</span> <input type="checkbox" checked disabled>
+                                    <label class="text-nowrap"> Other (please specify):</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="Genetic Testing" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Provider Mailing Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="PO BOX 880927, Los Angles, CA 90088" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-10 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Provider Phone Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Page One Content  -->
+                <!-- Page Two Content  -->
+                <div class="page-two custom-mb-50">
+                    <div class="custom-mb-20">
+                        <h3>APPOINTMENT OF AUTHORIZED REPRESENTATIVE</h3>
+                        <h4 class="custom-mb-15">(Fill out this section only if someone else will be representing you in
+                            this appeal.)</h4>
+                        <p class="custom-mb-15">You can represent yourself, or you may ask another person, including
+                            your treating healthcare provider, to act as your personal representative. You may revoke
+                            this authorization at any time.</p>
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <p class="custom-mb-10">I hereby authorize <input type="text"
+                                        class="custom-form-control border-bottom-1 w-30" placeholder="Nidhi Maheshwari">
+                                    to pursue my appeal on my behalf.</p>
+                            </div>
+                            <div class="col-md-7 custom-mb-10">
+                                <div class="form-group custom-mr-30">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="Nidhi Maheshwari using cedarville cursive" disabled>
+                                    <label>Signature of Enrollee (or legal representative)* </label>
+                                </div>
+                            </div>
+                            <div class="col-md-5 custom-mb-10">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="{SignatureDate}" disabled>
+                                    <label>Date </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">*(Parent, Guardian, Conservator, Attorney, or Other -
+                                        Please Specify):</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="Healthcare Provider" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Address of Authorized Representative:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="PO BOX 880927, Los Angles, CA 90088" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Phone Numbers: Daytime</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Evening</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-50">
+                        <h3>REQUEST FOR A TELEPHONE CONFERENCE</h3>
+                        <h4 class="custom-mb-15">(Fill out this section only if you would like to request a telephone
+                            conference.)</h4>
+                        <p class="custom-mb-15">If you, your representative or your treating healthcare provider would
+                            like to discuss your case with the independent review organization and your insurer in a
+                            telephone conference, check the box below and explain why you think it is important to be
+                            allowed to speak about your case. If you do not request a telephone conference, the reviewer
+                            will base its decision on the written information only. Your request for a telephone
+                            conference will be granted only if there is a good reason why the written information would
+                            not be sufficient.</p>
+                        <p><input type="checkbox" disabled> Yes, I want a phone conference. My reason for requesting a
+                            phone conference is that:</p>
+                    </div>
+                    <div class="blankbox-100"></div>
+                    <div class="custom-mb-50">
+                        <h3 class="custom-mb-15">HEALTH CARE DECISION IN DISPUTE</h3>
+                        <p>Describe your health insurer's decision in your own words. Include any information you have
+                            about the healthcare services, supplies or drugs being denied, including dates and names of
+                            healthcare providers. Explain why you disagree with the insurer. Attach additional pages if
+                            necessary. Also attach pertinent medical records and (if possible) a statement from your
+                            treating healthcare provider indicating why the disputed service, supply, or drug is
+                            medically necessary.</p>
+                    </div>
+                </div>
+                <!-- page three  -->
+                <div class="page-three custom-mb-50">
+                    <h3 class="custom-mb-15">EXPEDITED REVIEW</h3>
+                    <p class="custom-mb-25">You may request that your external appeal be handled on an expedited basis (see page 4). To
+                        complete this request, your treating healthcare provider must fill out the attached form stating
+                        that a delay would seriously jeopardize the life or health of the patient or would jeopardize
+                        the patient's ability to regain maximum function. Is this a request for an expedited appeal?
+                        <span class="custom-ml-10">Yes</span> <input type="checkbox" disabled> <span
+                            class="custom-ml-30">No</span> <input type="checkbox" disabled checked> 
+                    </p>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-15">REQUEST FOR EXTERNAL REVIEW AND RELEASE OF MEDICAL RECORDS</h3>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="custom-mb-10">I, <input type="text"
+                                        class="custom-form-control border-bottom-1 w-30" placeholder="${LastName}, ${FirstName}">
+                                   ,hereby request an external appeal and authorize my insurance company and my healthcare providers to release all
+                                    relevant medical or treatment records to the independent review organization and the West Virginia Offices of the 
+                                    Insurance Commissioner. I understand that the independent review organization and the Insurance Commission will use this 
+                                    information to make a determination on my appeal and that the information will be kept confidential and not be released to 
+                                    anyone else. I understand that neither the Commissioner nor the external appeal entity may authorize services in excess of those 
+                                    covered by my healthcare plan. This release is valid for one year.</p>
+                            </div>
+                            <div class="col-md-7 custom-mb-10">
+                                <div class="form-group custom-mr-30">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                    <label>Signature of Enrollee (or legal representative)* </label>
+                                </div>
+                            </div>
+                            <div class="col-md-5 custom-mb-10">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="{SignatureDate}" disabled>
+                                    <label>Date </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">*(Parent, Guardian, Conservator, Attorney, or Other -
+                                        Please Specify):</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <h3 class="custom-mb-10">
+WHAT TO SEND AND WHERE TO SEND IT
+                        </h3>
+                        <ul class="number-list custom-mb-15">
+                            <li>This completed application form signed and dated (see section above).</li>
+                            <li>A copy of the letter from your health insurer denying your request at the second and final level of their internal appeals process.</li>
+                            <li>A photocopy of your insurance card or other evidence that you are insured by the health insurance company named in this application.</li>
+                            <li>A copy of your certificate of coverage or your insurance policy benefit booklet, which lists your benefits.</li>
+                            <li>Any medical records, statements from your treating healthcare providers or other information that you would like the independent review organization to consider in reviewing your case.</li>
+                        </ul>
+                        <p>Call the Insurance Commission at 304-558-3386, if you need help with this application or if you would like information on alternative ways to complete your request for independent external review.</p>
+                        <p class="custom-mb-15">If you are requesting a standard review, send all paperwork to:</p>
+                        <ul class="custom-mb-15">
+                            <li>Independent External Review</li>
+                            <li>West Virginia Offices of the Insurance Commissioner</li>
+                            <li>PO Box 50540</li>
+                            <li>Charleston, WV 25305-0540</li>
+                        </ul>
+                        <p class="font-bold f-1">If you are requesting an expedited review, call the Insurance Commission before sending your paperwork, and
+you will receive instructions on the quickest way to submit the application and supporting information.</p>
+
+                    </div>
+                </div>
+                <!-- Page four  -->
+                <div class="page-four custom-mb-50">
+                    <div class="border-all custom-mb-20 pxy-10">
+                        <h3>EXPEDITED APPEAL CERTIFICATION BY TREATING HEALTHCARE PROVIDER </h3>
+                        <p class="custom-mb-15">(This form is for the purpose of providing the certification necessary to trigger an expedited review)</p>
+                        <h3 class="custom-mb-15">NOTE TO THE TREATING HEALTHCARE PROVIDER:</h3>
+                        <p class="custom-mb-15">Patients can request an independent external appeal when an insurer has denied a healthcare service, supply or drug on the basis of a utilization review determination that the requested service, supply or drug does not meet the insurer's requirements for medical necessity, appropriateness, healthcare setting, and level of care or effectiveness. The West Virginia Insurance Commission oversees external appeals. The standard process for handling external review can take up to 45 days. Expedited review is available only if the patient's treating healthcare provider certified that adherence to the time frame for standard review would seriously jeopardize the life or health of the covered person or would jeopardize the covered person's ability to regain maximum function. Expedited review must be completed in at most 72 hours.</p>
+                        <h3 class="custom-mb-15">GENERAL INFORMATION:</h3>
+                        <div class="custom-mb-15">
+    <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-mr-10">
+                                    <label class="text-nowrap">Name of Treating Healthcare Provider:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Mailing Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-2 custom-mb-10"></div>
+                            <div class="col-md-10 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Phone Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Fax Number</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-mr-10">
+                                    <label class="text-nowrap">Licensure and Area of Clinical Specialty: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Name of Patient:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Patient's Health Insurer Member ID#: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${Memberld}" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="custom-mb-15">
+                        <h3 class="custom-mb-15">CERTIFICATION:</h3>
+                        <p>I hereby certify that: I am a treating healthcare provider for <input type="text" class="custom-form-control border-bottom-1 w-40" placeholder="" disabled> (hereafter referred to as "the patient"); that adherence to the time frame for conducting a standard review of the patient's external appeal would, in my professional judgment, seriously jeopardize the life or health of the patient or would jeopardize the patient's ability to regain maximum function; and that, for this reason, the patient's appeal of the denial by the patient's health insurer of requested medical services should be processed on an expedited basis.</p>
+                    </div>
+                    <div class="custom-mb-5">
+                        <div class="row">
+                             <div class="col-md-12 custom-mb-10">
+                                <div class="form-group custom-mr-30">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                    <label>Treating Healthcare Provider's Name (Please Print Legibly)</label>
+                                </div>
+                            </div>
+                            <div class="col-md-7 custom-mb-10">
+                                <div class="form-group custom-mr-30">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                    <label>Signature </label>
+                                </div>
+                            </div>
+                            <div class="col-md-5 custom-mb-10">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                    <label>Date </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
