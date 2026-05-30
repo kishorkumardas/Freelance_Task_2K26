@@ -1,0 +1,303 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+.sv_main .nebraska-dept-content .form-title {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.sv_main .number-list {
+  list-style: decimal;
+  padding-left: 60px !important;
+  line-height: 1.3;
+}
+
+.sv_main .number-list li {
+  padding-left: 20px;
+}
+.sv_main .w-10 {
+  width: 10% !important;
+}
+.sv_main .w-15 {
+  width: 15% !important;
+}
+
+.sv_main .w-25 {
+  width: 25% !important;
+}
+
+.sv_main .w-50 {
+  width: 50% !important;
+}
+
+.sv_main .w-60 {
+  width: 60% !important;
+}
+.sv_main .w-70 {
+  width: 70% !important;
+}
+.sv_main .pr-4{
+  position: relative;
+  top: -4px;
+}
+
+.sv_main .blankbox-300{
+  width: 100%;
+  height: 300px;
+}
+.sv_main .blankbox-400{
+  width: 100%;
+  height: 400px;
+}
+.sv_main .lh-130 {
+  line-height: 1.35;
+}
+
+.sv_main .footer-text {
+  font-size: .95em;
+}
+.sv_main .card-title{
+  font-weight: bold;
+}
+.sv_main .b-line{
+  border-bottom: 3px solid #000;
+}
+.sv_main .custom-mb-35{
+  margin-bottom: 35px!important;
+}
+.sv_main .flex-start {
+    align-items: flex-start!important;
+}
+.sv_main .checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 20px;
+}
+
+.sv_main .checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sv_main input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.sv_main .p-relative{
+  position: relative;
+}
+.sv_main .abs-check {
+    position: absolute;
+    left: -62px;
+    top: -3px;
+}
+.sv_main .text-underline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.sv_main .custom-ml-50 {
+  margin-left: 50px !important;
+}
+
+.sv_main .custom-ml-100 {
+  margin-left: 100px !important;
+}
+.sv_main .align-i-center {
+  align-items: center !important;
+}
+
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+
+.sv_main .custom-form-control::placeholder {
+  color: #000;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 862px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO_State_ER_Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://natera.auxiform.com/auxisurvey/content/maz_form.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="sv_main ">
+    <div class="page-wrapper">
+        <div class="container">
+
+            <div class="cigna-form-content">
+                <!-- Page One Content  -->
+                <div class="page-one custom-mb-50">
+                    <div class="navbar custom-mb-10">
+                        <div class="nav-content">
+                            <h2 class="form-title custom-mb-5">Request for IRO (Independent Review Organization)</h2>
+                            <h2 class="form-title">Review and Release Form</h2>
+                        </div>
+                        <div class="logo-container custom-mb-5">
+                            <img src="images/Cigna_Logo.png" alt="Cigna Logo">
+                        </div>
+                    </div>
+
+                    <div class="custom-mb-20">
+                        <div class="row">
+                            <!-- 1 -->
+                            <div class="col-md-8 custom-mb-15">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap">Patient Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${LastName}, ${FirstName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-15">
+                                <div class="form-group d-flex align-i-end custom-ml-50">
+                                    <label class="text-nowrap">ID#:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${MemberId}" disabled>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="col-md-5 custom-mb-15">
+                                <div class="form-group d-flex align-i-end  custom-mr-10">
+                                    <label class="text-nowrap">Patient Date of Birth:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${DateOfBirth}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-7 custom-mb-15">
+                                <div class="form-group d-flex align-i-end  custom-ml-10">
+                                    <label class="text-nowrap">SR# from Prior Appeal Denial: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group d-flex align-i-end  custom-mr-10">
+                                    <label class="text-nowrap">Subscriber Name (if different):</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group d-flex align-i-end  custom-ml-10">
+                                    <label class="text-nowrap">Relationship to Patient: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="col-md-12 custom-mb-15">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap">Subscriber's Phone Number: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="col-md-12 custom-mb-15">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap">Subscriber's Employer Name: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap">Coverage determination that I am appealing: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox-group-container">
+                        <p> I am attaching additional information for this appeal:</p>
+                        <div class="checkbox-group">
+                            <label class="checkbox-item">
+                                <input type="checkbox" disabled>
+                                Yes
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" disabled>
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <p class="font-bold text-underline custom-mb-15">Please complete this section if you are authorizing
+                        someone else to act on your behalf</p>
+                    <div class="custom-mb-15">
+                        <p class="lh-150">I am authorizing <input type="text"
+                                class="custom-form-control border-bottom-1 w-50 pb-0" placeholder="Nidhi Maheshwari"
+                                disabled>
+                            (name of individual) to act on<br> my behalf in requesting a review in accordance with
+                            Cigna's External Review Program regarding the non-coverage
+                            determination dated <input type="text" class="custom-form-control border-bottom-1 w-25 pb-0"
+                                placeholder="${DateOfService}" disabled> This authorization allows Cigna to disclose any
+                            individually mentioned authorized representative.
+                        </p>
+                    </div>
+                    <div class="custom-mb-15">
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap label-nm">Authorized Representative's Addres: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="PO BOX 889027, LOS ANGELES, CA  90088-9027" disabled>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap label-nm">Relationship to member: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="Healthcare Provider" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-line custom-mb-10"></div>
+                    <div class="custom-mb-15">
+                        <p class="custom-mb-10">I understand the IRO will receive and review the following information
+                            from Cigna, its Agents or subsidiaries:</p>
+                        <ul class="order-list">
+                            <li>Any medical records and other documents that have been received and were reviewed during
+                                the
+                                internal review process.</li>
+                            <li>Documents from the internal review process, including a statement of the criteria and
+                                clinical
+                                reasons for the initial coverage decision.</li>
+                            <li>The contract document for my health care benefit plan (the description of my coverage).
+                            </li>
+                            <li>Any additional information not presented during the internal review process that has
+                                been
+                                received related to the appeal.</li>
+                        </ul>
+                    </div>
+                    <p class="custom-mb-10 lh-150">I understand that I may submit additional information related to this
+                        appeal (including medical records) <span class="font-bold">WITH THIS FORM</span> to be
+                        considered in the external review process. I understand that the decision of the IRO's
+                        reviewer(s) willl be
+                        binding on the CIGNA and on me, except to the extent that there are other remedies available
+                        under State or Federal law. I
+                        understand that my appeal to an IRO cannot begin until I have submitted all required
+                        information. I understand I must
+                        provide the information requested below and if applicable, sign the release of records form
+                        which allows Cigna to
+                        forward certain information to the IRO. I understand that any forms returned to Cigna incomplete
+                        will be returned to me
+                        for completion and my appeal will not be forwarded to the IRO until I complete the form and
+                        provide all requested information.
+                    </p>
+                    <p class="custom-mb-15 font-bold">I have read and understand the above information.</p>
+                    <div class="custom-mb-25">
+                        <div class="row">
+                            <!-- 1 -->
+                            <div class="col-md-8 custom-mb-10">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap ">Signature of patient electing appeal: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-ml-10">
+                                    <label class="text-nowrap ">Date:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${SignatureDate}" disabled>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="custom-md-12">
+                                <div class="form-group custom-mb-5">
+                                    <p class="custom-mb-10">If patient is unable to give consent because of physical
+                                        condition or age, complete the following:</p>
+                                    <p>Patient is a mino
+                                        <input type="text" class="custom-form-control border-bottom-1 w-20 pb-0"
+                                            disabled> Years of age or is unable to give consent, because
+                                        <input type="text" class="custom-form-control border-bottom-1 w-20 pb-0"
+                                            disabled>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="col-md-8 custom-mb-10">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap ">Signature of Parent/Guardian/POA: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-10">
+                                <div class="form-group d-flex align-i-end custom-ml-10">
+                                    <label class="text-nowrap ">Date:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${SignatureDate}" disabled>
+                                </div>
+                            </div>
+                            <!-- 4 -->
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-i-end ">
+                                    <label class="text-nowrap">Relationship: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <p>Return Completed Form To:</p>
+                        <div class="custom-ml-50">
+                            <p class="font-bold custom-mb-5">Cigna Healthcare, Attn: External Appeal Processing Unit,</p>
+                            <p class="font-bold">P.O. Box 188011, Chatttanooga, TN 37422, Fax#:(877) 815-4827</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End Page One Content  -->
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
