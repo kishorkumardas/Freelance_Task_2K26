@@ -1,0 +1,274 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+.sv_main .michigan-state-content p,
+.sv_main .michigan-state-content label,
+.sv_main .michigan-state-content ul li,
+.sv_main .michigan-state-content i,
+.sv_main .michigan-state-content span{
+  font-size: 0.8em;
+}
+.sv_main .topnav-right h3{
+  font-size: 1.3em;
+}
+.sv_main .topnav-left {
+    border: 1px solid #000;
+    padding: 5px;
+}
+.sv_main .following-disc-list{
+  list-style: disc!important;
+  padding-left: 30px!important;
+}
+.sv_main .mid-section{
+  border-top: 1px solid #000;
+}
+.sv_main .border-right{
+  border-right: 1px solid #000;
+}
+.sv_main .michigan-state-content .form-group{
+  padding: 4px 0;
+}
+.sv_main .inline{
+  display: inline;
+}
+.sv_main .pr-10{
+  padding-right: 10px;
+}
+.sv_main .pl-10{
+  padding-left: 10px;
+}
+.sv_main .py-5{
+  padding: 5px 0;
+}
+.sv_main .bottom-section img {
+    max-width: 980px;
+    height: 70px;
+    object-fit: contain;
+}
+.sv_main  input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.sv_main .w-50 {
+  width: 50% !important;
+}
+
+.sv_main .pb-0 {
+  position: relative;
+  top: -5px;
+}
+
+.sv_main .lh-150 {
+  line-height: 150%;
+}
+
+.sv_main .blankbox-600{
+  width: 100%;
+  height: 600px;
+}
+
+.sv_main .nav-top-border {
+  border-top: 3px solid #000;
+}
+
+.sv_main .custom-ml-50 {
+  margin-left: 50px !important;
+}
+
+.sv_main .align-i-center {
+  align-items: center !important;
+}
+
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+
+.sv_main .custom-form-control::placeholder {
+  color: #000;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
