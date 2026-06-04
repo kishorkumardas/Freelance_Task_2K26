@@ -67,7 +67,7 @@
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group custom-ml-50">
                                     <label class="text-nowrap"> Email address</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="EMAIL"
                                         disabled>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                             <div class="col-md-12 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">Street address</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="PATIENT_STREET_ADDRESS"
                                         disabled>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                             <div class="col-md-4 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">City:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="PATIENT_CITY"
                                         disabled>
                                 </div>
                             </div>
@@ -97,21 +97,21 @@
                             <div class="col-md-2 custom-mb-15">
                                 <div class="form-group custom-ml-50">
                                     <label class="text-nowrap">State:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="PATIENT_STATE"
                                         disabled>
                                 </div>
                             </div>
                             <div class="col-md-2 custom-mb-15">
                                 <div class="form-group custom-ml-50">
                                     <label class="text-nowrap">Zip code:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="PATIENT_POSTCODE"
                                         disabled>
                                 </div>
                             </div>
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">Daytime phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="PHONE_NUMBER"
                                         disabled>
                                 </div>
                             </div>
@@ -132,8 +132,8 @@
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">Name</label>
-                                    <input type="text" class="custom-form-control border-bottom-1"
-                                        placeholder="" disabled>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
                                 </div>
                             </div>
                             <div class="col-md-6 custom-mb-15">
@@ -204,7 +204,7 @@
                 </div>
                 <!--End Page One Content  -->
                 <!-- Page two Content  -->
-                <div class="page-two custom-mb-">
+                <div class="page-two custom-mb-50">
                     <div class="custom-mb-20">
                         <div class="navbar">
                             <div class="d-flex justify-content-between">
@@ -222,7 +222,7 @@
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">Insurance company #1:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="${PayorName}"
                                         disabled>
                                 </div>
                             </div>
@@ -236,13 +236,59 @@
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group">
                                     <label class="text-nowrap">Policyholder:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="${LastName}, ${FirstName}"
                                         disabled>
                                 </div>
                             </div>
                             <div class="col-md-6 custom-mb-15">
                                 <div class="form-group custom-ml-50">
                                     <label class="text-nowrap"> Policy number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="${MemberId}"
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-20">
+                                <div class="form-group">
+                                    <label class="text-nowrap">Claim number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="ICNS"
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-20">
+                                <div class="form-group custom-ml-50">
+                                    <label class="text-nowrap">Insurance company phone number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-20">
+                                <p>Attach a copy of the denied claim or correspondence received from the insurance
+                                    carrier. Send copies only, not originals.</p>
+                            </div>
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group">
+                                    <label class="text-nowrap">Insurance company #2, if applicable:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group custom-ml-50">
+                                    <label class="text-nowrap">Insurance plan or plan option:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group">
+                                    <label class="text-nowrap">Policyholder: </label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 custom-mb-15">
+                                <div class="form-group custom-ml-50">
+                                    <label class="text-nowrap">Policy number:</label>
                                     <input type="text" class="custom-form-control border-bottom-1" placeholder=""
                                         disabled>
                                 </div>
@@ -261,64 +307,52 @@
                                         disabled>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <p></p>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group">
-                                    <label class="text-nowrap">Insurance company #2, if applicable:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group custom-ml-50">
-                                    <label class="text-nowrap">Evening phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group">
-                                    <label class="text-nowrap">Daytime phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group custom-ml-50">
-                                    <label class="text-nowrap">Evening phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group">
-                                    <label class="text-nowrap">Daytime phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
-                            <div class="col-md-6 custom-mb-15">
-                                <div class="form-group custom-ml-50">
-                                    <label class="text-nowrap">Evening phone:</label>
-                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
-                                        disabled>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="d-flex w-70 custom-mb-20">
-                        <p class="text-nowrap">Is this a request for an expedited appeal? </p>
-                        <div class="custom-ml-30 custom-mr-10">
-                            Yes
-                            <input type="text" class="custom-form-control border-bottom-1 w-50 pr-4" placeholder=""
-                                disabled>
-                        </div>
-                        <div>
-                            <span class="custom-mr-10">No</span>
-                            <input type="text" class="custom-form-control border-bottom-1 w-50 pr-4" placeholder=""
-                                disabled>
+                    <div class="custom-mb-10">
+                        <h3 class="section-form-title custom-mb-15">Section 3: Dispute description</h3>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-25">
+                                <div class="form-group">
+                                    <label class="text-nowrap">Type of service, treatment, test, or claim being
+                                        denied:</label>
+                                    <input type="text" class="custom-form-control border-bottom-2" placeholder="${TestName}"
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-25">
+                                <div class="d-flex align-i-center custom-mb-20">
+                                    <p class="text-nowrap">Have the medical services already been received? </p>
+                                    <div class="d-flex align-i-center custom-ml-30 custom-mr-10">
+                                        <input type="checkbox" disabled checked> <span class="custom-ml-5">Yes</span>
+                                    </div>
+                                    <div class="d-flex align-i-center custom-ml-30 custom-mr-10">
+                                        <input type="checkbox" disabled> <span class="custom-ml-5">No</span>
+                                    </div>
+                                    <div class="custom-ml-50 w-180px">
+                                        <label class="text-nowrap">If yes, date received</label>
+                                        <input type="text" class="custom-form-control border-bottom-1" placeholder="${DateOfService}"
+                                            disabled>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-50">
+                                <div class="form-group">
+                                    <label class="text-nowrap custom-mb-20 d-block">Please describe why you disagree
+                                        with the health plan or insurer decision:</label>
+                                    <input type="text" class="custom-form-control border-bottom-2 px-0"
+                                        placeholder="Please see the attached explanation in detail" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-25">
+                                <div class="form-group">
+                                    <label class="text-nowrap custom-mb-20 d-block">What outcome are you
+                                        requesting?</label>
+                                    <input type="text" class="custom-form-control border-bottom-2 px-0"
+                                        placeholder="We are requesting a thorough review of the denial and reconsideration for payment"
+                                        disabled>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="footer-nav">
@@ -340,6 +374,75 @@
                         </div>
                         <div class="gray-line"></div>
                     </div>
+                    <h3 class="section-form-title custom-mb-15">Section 4: Claims for urgent care</h3>
+                    <p class="lh-130 custom-mb-5">If the situation is urgent, you may ask for an expedited review. An
+                        urgent care situation is one in which the covered person's
+                        health may be in serious jeopardy or, in a doctor's opinion, the covered person may have pain
+                        that cannot be controlled while
+                        waiting for the external review decision.</p>
+                    <div class="col-md-12 custom-mb-50">
+                        <div class="d-flex align-i-center custom-mb-20">
+                            <p class="text-nowrap">Is this external review for urgent care?</p>
+                            <div class="d-flex align-i-center custom-ml-30 custom-mr-10">
+                                <input type="checkbox" disabled> <span class="custom-ml-5">Yes</span>
+                            </div>
+                            <div class="d-flex align-i-center custom-ml-30 custom-mr-10">
+                                <input type="checkbox" disabled> <span class="custom-ml-5">No</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row custom-mb-50">
+                        <div class="col-md-5 custom-mb-15">
+                            <div class="form-group">
+                                <label class="text-nowrap">Treating provider name, if urgent:</label>
+                                <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-4 custom-mb-15">
+                            <div class="form-group custom-ml-50">
+                                <label class="text-nowrap">Provider phone:</label>
+                                <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group custom-mb-25">
+                        <label class="text-nowrap custom-mb-20 d-block">Briefly describe the urgent medical
+                            reason:</label>
+                        <input type="text" class="custom-form-control border-bottom-2 px-0" placeholder="" disabled>
+                    </div>
+                    <h3 class="section-form-title custom-mb-15">Section 5: Claims involving rescission of coverage</h3>
+                    <div class="col-md-12 custom-mb-50">
+                        <div class="d-flex align-i-center custom-mb-20">
+                            <p class="lh-130">A rescission is an action by a health insurance issuer to retroactively
+                                cancel or discontinue a policyholder's coverage.
+                                Is this request for external review of a rescission of health insurance coverage? </p>
+                            <div class="d-flex align-i-center custom-ml-10 custom-mr-10">
+                                <input type="checkbox" disabled> <span class="custom-ml-5">Yes</span>
+                            </div>
+                            <div class="d-flex align-i-center custom-ml-10 custom-mr-10">
+                                <input type="checkbox" disabled> <span class="custom-ml-5">No</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="section-form-title custom-mb-20">Section 6: Additional information and documents</h3>
+                    <p class="lh-130 custom-mb-25">MAXIMUS Federal Services will use this request to obtain relevant
+                        information from the health plan or insurer. You may include
+                        supporting documents you believe the plan may not provide.
+                        Suggested attachments: denial letter or final adverse benefit determination; internal appeal
+                        letter and decision; Explanation of Benefits (EOB);
+                        medical records; provider letters; bills; test results; prior correspondence; and any other
+                        materials supporting the request.
+                        List documents attached</p>
+                    <div class="form-group custom-mb-25">
+                        <input type="text" class="custom-form-control border-bottom-2 px-0" placeholder="" disabled>
+                    </div>
+                    <div class="gray-border custom-mb-50">
+                        <p class="custom-mb-25"><span class="font-bold">Submission:</span> Fax to 1-888-866-6190 or mail
+                            to HHS Federal External Review Request, MAXIMUS Federal Services, 3750
+                            Monroe Avenue, Suite 708, Pittsford, NY 14534. For questions, call 1-888-975-1080 or email
+                            ferp@maximus.com.</p>
+                    </div>
                     <div class="footer-nav">
                         <p class="footer-nav-title">Questions?</p>
                         <p>Call 1-888-975-1080, Monday - Friday 8:00am - 5:00pm EST | Email: ferp@maximus.com</p>
@@ -359,28 +462,62 @@
                         </div>
                         <div class="gray-line"></div>
                     </div>
-                    <div class="custom-mb-20">
-                        <p class="font-bold text-center custom-mb-20">EXTERNAL REVIEW REQUEST FORM</p>
-                        <div class="row">
-                            <div class="col-md-5">
+                    <h3 class="section-form-title custom-mb-15">Section 7: Authorization and consent</h3>
+                    <p class="lh-130 custom-mb-25">Please sign and date this form. The covered person must sign unless
+                        they have a legal guardian, personal representative, are
+                        incapacitated, or have otherwise delegated authority to complete this form. If an authorized
+                        representative signs, attach written
+                        proof of authority.</p>
+                    <div class="gray-border custom-mb-10">
+                        <p class="lh-130 custom-mb-20">I hereby request an external review. I attest that the
+                            information provided in this request is true and accurate to the best of my knowledge.
+                            I authorize my health plan or insurance issuer and my health care providers to release all
+                            relevant medical, treatment, claim, and
+                            coverage records to MAXIMUS Federal Services for purposes of this external review. I
+                            understand MAXIMUS Federal Services will use
+                            this information to make a determination on the external review request and will keep the
+                            information confidential as required by law</p>
+                        <div class="row custom-mb-15">
+                            <div class="col-md-5 custom-mb-15">
                                 <div class="form-group">
-                                    <label class="text-nowrap font-bold">APPLICANT NAME: </label>
+                                    <label class="text-nowrap">Treating provider name, if urgent:</label>
                                     <input type="text" class="custom-form-control border-bottom-1" placeholder=""
                                         disabled>
                                 </div>
                             </div>
-                            <!-- 2 -->
-                            <div class="col-md-7">
-                                <div class="d-flex">
-                                    <label class="checkbox-item">
-                                        <input type="checkbox" checked disabled>
-                                        Covered person/Patient
+                            <div class="col-md-4 custom-mb-15">
+                                <div class="form-group custom-ml-50">
+                                    <label class="text-nowrap">Provider phone:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row custom-mb-25">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-nowrap">Printed name:</label>
+                                <input type="text" class="custom-form-control border-bottom-1"
+                                    placeholder="" disabled>
+                            </div></div>
+                    </div>
+                    <div class="custom-mb-25">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="d-flex align-i-center">
+                                    <p>I am the:</p>
+                                    <label class="checkbox-item custom-ml-50">
+                                        <input type="checkbox" disabled>
+                                        <span class="text-nowrap">
+                                            Covered person/Patient
+                                        </span>
                                     </label>
-                                    <label class="checkbox-item custom-mr-10">
+                                    <label class="checkbox-item custom-ml-50">
                                         <input type="checkbox" disabled>
                                         Provider
                                     </label>
-                                    <label class="checkbox-item">
+                                    <label class="checkbox-item custom-ml-50">
                                         <input type="checkbox" disabled>
                                         <span class="text-nowrap">Authorized Representative</span>
                                     </label>
@@ -388,6 +525,44 @@
                             </div>
                         </div>
                     </div>
+                    <h3 class="section-form-title custom-mb-15">Authorized representative contact (if applicable)</h3>
+                    <div class="row custom-mb-25">
+                        <div class="col-md-5 custom-mb-20">
+                            <div class="form-group">
+                                <label class="text-nowrap">Representative name:</label>
+                                <input type="text" class="custom-form-control border-bottom-1"
+                                    placeholder="Nidhi Maheshwari" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-5 custom-mb-20">
+                            <div class="form-group custom-ml-50">
+                                <label class="text-nowrap">Organization:</label>
+                                <input type="text" class="custom-form-control border-bottom-1" placeholder="Natera Inc."
+                                    disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-5 custom-mb-20">
+                            <div class="form-group">
+                                <label class="text-nowrap">Phone:</label>
+                                <input type="text" class="custom-form-control border-bottom-1"
+                                    placeholder="650-249-9090" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-4 custom-mb-20">
+                            <div class="form-group custom-ml-50">
+                                <label class="text-nowrap">Email:</label>
+                                <input type="text" class="custom-form-control border-bottom-1"
+                                    placeholder="doiexternalreview@natera.com" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gray-line custom-mb-50"></div>
+                    <p class="custom-mb-20 lh-130"><span class="font-bold">Alabama Department of Insurance note: </span> External review is separate from filing a consumer complaint. If an Alabama resident has
+completed the external review process and still needs assistance, they may contact the Alabama Department of Insurance Consumer
+Services Division or file a consumer complaint through ALDOI.</p>
+                    <p class="custom-mb-20 lh-130"><span class="font-bold">Source basis: </span> Adapted from the uploaded Kansas independent medical review request format and the current HHS-administered federal
+external review request process used for Alabama external reviews</p>
+                    <div class="blankbox-150"></div>
                     <div class="footer-nav">
                         <p class="footer-nav-title">Questions?</p>
                         <p>Call 1-888-975-1080, Monday - Friday 8:00am - 5:00pm EST | Email: ferp@maximus.com</p>
