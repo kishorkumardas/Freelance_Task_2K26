@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CO_State_ER_Form</title>
+    <title></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -35,7 +35,8 @@
                             submit the form successfully to our office.</p>
                         <ul>
                             <li class="font-bold custom-mb-25"><span class="text-nowrap custom-mr-30">STEP 1:</span>
-                                <i>Review the Independent Review Request form and Additional Information.</i></li>
+                                <i>Review the Independent Review Request form and Additional Information.</i>
+                            </li>
                             <li class="d-flex custom-mb-25 lh-135">
                                 <span class="font-bold text-nowrap custom-mr-30">STEP 2:</span>
                                 <div class="box">
@@ -134,6 +135,271 @@
                         </div>
                         <h1>INDEPENDENT REVIEW REQUEST</h1>
                     </div>
+
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">1</p>
+                        <p class="form-title">REQUESTOR INFORMATION</p>
+                    </div>
+                    <!-- F-1  -->
+                    <div class="main-content">
+                        <div class="custom-mb-20">
+                            <div class="row">
+                                <div class="col-md-7 custom-mb-15">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Requestor's
+                                            Name:</label>
+                                        <input type="text" class="custom-form-control"
+                                            placeholder="${LastName}, ${FirstName}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Relationship to
+                                            Insured/Patient:</label>
+                                        <input type="text" class="custom-form-control " placeholder="" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Your Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="PATIENT_STREET_ADDRESS" disabled>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="PATIENT CITY" disabled>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="PATIENT STATE" disabled>
+                                        <input type="text" class="custom-form-control" placeholder="PATIENT_POSTCODE"
+                                            disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-12 custom-mb-5">
+                                            <div class="d-flex">
+                                                <p class="font-bold text-right">Preferred method of communication? </p>
+                                                <div class="d-flex justify-content-between w-60">
+                                                    <label class="d-flex align-i-center font-bold">
+                                                        <input type="radio" name="method" disabled checked>
+                                                        <span>Email</span>
+                                                    </label>
+                                                    <label class="d-flex align-i-center font-bold">
+                                                        <input type="radio" name="method" disabled> <span>Fax</span>
+                                                    </label>
+                                                    <label class="d-flex align-i-center font-bold">
+                                                        <input type="radio" name="method" disabled> <span>US Mail</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 custom-mb-15">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <div class="d-flex align-i-center custom-mb-5">
+                                                    <label class="text-nowrap font-bold">Phone</label><i
+                                                        class="label-sm">Home Cellular Business</i>
+                                                </div>
+                                                <input type="text" class="custom-form-control " placeholder="" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 custom-mb-15">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <label class="text-nowrap d-block custom-mb-5 font-bold">Fax</label>
+                                                <input type="text" class="custom-form-control " placeholder="" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <div class="d-flex align-i-center custom-mb-5">
+                                                    <label class="text-nowrap font-bold">Email</label><i
+                                                        class="label-sm">(Required)</i>
+                                                </div>
+                                                <input type="text" class="custom-form-control " placeholder="" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- F-2 -->
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">2</p>
+                        <p class="form-title">INSURED INFORMATION</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="custom-mb-20">
+                            <div class="row">
+                                <div class="col-md-7 custom-mb-15">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Insured/Patient
+                                            Name:</label>
+                                        <input type="text" class="custom-form-control" placeholder="${LastName}, ${FirstName}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Insured/Patient Birth
+                                            Date:</label>
+                                        <input type="text" class="custom-form-control " placeholder="DATE_OF_BIRTH" disabled>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="col-md-7 custom-mb-15">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Insurance Carrier
+                                            Name:</label>
+                                        <input type="text" class="custom-form-control" placeholder="${PayorName}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Insurance ID #</label>
+                                        <input type="text" class="custom-form-control " placeholder="${MemberId}" disabled>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-md-4">
+                                    <p class="font-bold text-nowrap custom-mb-5">Type of insurance coverage?</p>
+                                    <div class="d-flex justify-content-between w-60">
+                                        <label class="d-flex align-i-center ">
+                                            <input type="radio" name="method" disabled> <span>Individual</span>
+                                        </label>
+                                        <label class="d-flex align-i-center custom-ml-10 ">
+                                            <input type="radio" name="method" disabled> <span>Group</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <div class="d-flex align-i-center custom-mb-5">
+                                            <label class="text-nowrap font-bold">Employer Name: </label><i
+                                                class="label-sm">(if Group Policy)</i>
+                                        </div>
+                                        <input type="text" class="custom-form-control" placeholder="" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">State where
+                                            purchased?</label>
+                                        <input type="text" class="custom-form-control " placeholder="" disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- F-3 -->
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">3</p>
+                        <p class="form-title">HEALTH CARE PROVIDER INFORMATION</p>
+                    </div>
+                    <div class="main-content">
+                        <div class="custom-mb-20">
+                            <div class="row">
+                                <div class="col-md-7 custom-mb-15">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Provider Name:</label>
+                                        <input type="text" class="custom-form-control" placeholder="Natera Inc."
+                                            disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group round-border custom-ml-10">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Medical Record
+                                            #</label>
+                                        <input type="text" class="custom-form-control " placeholder="" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="form-group round-border">
+                                        <label class="text-nowrap d-block custom-mb-5 font-bold">Provider
+                                            Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="P O BOX 889027" disabled>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="Los Angeles" disabled>
+                                        <input type="text" class="custom-form-control border-bottom-1 custom-mb-15"
+                                            placeholder="CA" disabled>
+                                        <input type="text" class="custom-form-control" placeholder="90088" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6 custom-mb-15">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <div class="d-flex align-i-center custom-mb-5">
+                                                    <label class="text-nowrap font-bold">Phone</label>
+                                                </div>
+                                                <input type="text" class="custom-form-control "
+                                                    placeholder="650-249-9090" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 custom-mb-15">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <label class="text-nowrap d-block custom-mb-5 font-bold">Fax</label>
+                                                <input type="text" class="custom-form-control " placeholder="" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group round-border custom-ml-10">
+                                                <div class="d-flex align-i-center custom-mb-5">
+                                                    <label class="text-nowrap font-bold">Email</label><i
+                                                        class="label-sm">(Required)</i>
+                                                </div>
+                                                <input type="text" class="custom-form-control "
+                                                    placeholder="doiexternalreview@natera.com" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">4</p>
+                        <p class="form-title">INDEPENDENT REVIEW INFORMATION</p>
+                    </div>
+                    <div class="custom-mb-15">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="d-flex align-i-center custom-mb-15">
+                                    <p class="font-bold text-nowrap">Reason for insurance carrier denial?</p>
+                                    <label class="d-flex align-i-center custom-ml-10 ">
+                                        <input type="radio" disabled> <span>Medical Necessity</span>
+                                    </label>
+                                </div>
+                                <div class="d-flex align-i-center custom-mb-15 custom-ml-30">
+                                    <p class="font-bold">Is this an expedited review?</p>
+                                    <label class="d-flex align-i-center custom-ml-10 ">
+                                        <input type="radio" disabled> <span>Yes</span>
+                                    </label>
+                                    <label class="d-flex align-i-center custom-ml-10 ">
+                                        <input type="radio" disabled checked> <span>No</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="gray-box">
+                                    <label class="d-flex ">
+                                        <div>
+                                            <input type="radio" disabled>
+                                        </div>
+                                        <i class="font-bold">Experimental or Investigational</i>
+                                    </label>
+                                    <i class="label-sm">Have an Experimental/Investigational Certificate completed by
+                                        the treating physician.</i>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <label class="d-flex">
+                                    <div>
+                                        <input type="radio" disabled>
+                                    </div>
+                                    <span class="font-bold">Rescinded Coverage</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
                     <div class="footer">
                         <div class="d-flex align-i-center custom-mb-5">
                             <p class="font-bold">KEEP FOR YOUR RECORDS</p>
@@ -150,8 +416,110 @@
                 <!-- End Page Two  -->
                 <!-- Page Three  -->
                 <div class="page-three custom-mb-50">
-                    <h1 class="text-center">INDEPENDENT REVIEW REQUEST</h1>
-                    <div class="top-bar"></div>
+                    <h1 class="text-center custom-mb-5">INDEPENDENT REVIEW REQUEST</h1>
+                    <div class="top-bar custom-mb-20"></div>
+                    <div class="main-content custom-mb-20">
+                        <div class="row">
+                            <div class="col-md-8 custom-mb-15">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap font-bold">Insured's Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${LastName}, ${FirstName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-15">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap font-bold">UID #</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">5</p>
+                        <p class="form-title">HEALTH CARE SERVICE IN DISPUTE</p>
+                    </div>
+                    <div class="main-content">
+                        <p class="lh-135">Briefly describe the disagreement with the insurance carrier. Indicate clearly
+                            the service being denied and the specific date(s). Attach additional pages if necessary.
+                            Include pertinent medical records, information received from the carrier concerning the
+                            denial, literature or clinical studies, and information from the treating physician or
+                            provider.</p>
+                        <div class="d-flex justify-content-end custom-mb-15">
+                            <label class="d-flex align-i-center">
+                                <input type="checkbox" checked disabled>
+                                <span> See the attached explanation letter.</span>
+                            </label>
+                        </div>
+                        <div class="form-group round-border custom-mb-20">
+                            <div class="d-flex align-i-center custom-mb-5">
+                                <label class="text-nowrap font-bold">Please see the attached explanation letter</label>
+                            </div>
+                            <input type="text" class="custom-form-control " placeholder=""
+                                disabled>
+                        </div>
+                    </div>
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">6</p>
+                        <p class="form-title"> AUTHORIZATION AND RELEASE OF MEDICAL RECORDS</p>
+                    </div>
+                    <div class="main-content custom-mb-25">
+                        <p class="lh-135 custom-mb-20">To appeal your carrier's denial, you must sign and date this independent review request form and consent to the release of medical records.</p>
+                        <p class="custom-mb-5">I, <input type="text" class="custom-form-control border-bottom-1 w-50" placeholder="${LastName}, ${FirstName}" disabled>, hereby request and independent review.</p>
+                        <ul class="lh-135 custom-mb-25">
+                            <li class="custom-mb-5">- I attest that the information provided in this request form is true and accurate to the best of my knowledge.</li>
+                            <li class="custom-mb-5">- I authorize my carrier and my health care providers to release all relevant medical or treatment records, including any records pertaining to HIV/AIDS, mental health, and substance abuse, to the independent review organization and the Utah Insurance Department.</li>
+                            <li class="custom-mb-5">- I understand that the independent review organization and the Utah Insurance Department will use this information to make a determination on my appeal and that the information will be kept confidential and not be released to anyone else.</li>
+                            <li class="custom-mb-5">- I understand that I have the right to revoke this authorization in writing at any time except to the extent that action has already been taken based on this authorization.</li>
+                            <li>* This release is valid for one year. *</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                                    <label>Signature of Insured or legal representative</label>
+                                </div>
+
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                                    <label>Date</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-title-container custom-mb-15">
+                        <p class="form-sl">7</p>
+                        <p class="form-title">APPOINTMENT TO DISCLOSE INFORMATION</p>
+                    </div>
+                    <div class="main-content custom-mb-50">
+                        <p class="lh-135 custom-mb-20">You can represent yourself, or you may ask another person, including your treating health care provider, to act as your authorized representative. This allows the individual listed below to act on the insured's behalf. You may revoke this authorization at any time.</p>
+                        <p class="custom-mb-20">
+                               I hereby authorize  <input type="text" class="custom-form-control border-bottom-1 w-60" placeholder=" Nidhi Maheshwari" disabled> to pursue my appeal on my behalf.
+                        </p>
+                                           <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                                    <label>Signature of Insured or legal representative</label>
+                                </div>
+
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder="" disabled>
+                                    <label>Date</label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="footer">
                         <div class="d-flex align-i-center custom-mb-5">
                             <p class="font-bold">KEEP FOR YOUR RECORDS</p>
@@ -172,15 +540,3 @@
 </body>
 
 </html>
-
-<!-- <div class="custom-mb-20">
-    <div class="row">
-        <div class="col-md-12 custom-mb-15">
-            <div class="form-group d-flex align-i-end px-0">
-                <label class="text-nowrap"></label>
-                <input type="text" class="custom-form-control border-bottom-1" placeholder="${LastName}, ${FirstName}"
-                    disabled>
-            </div>
-        </div>
-    </div>
-</div> -->

@@ -21,126 +21,108 @@ body {
 }
 
 /* new  */
-.sv_main .utah-ins-content .navbar {
+.sv_main .virginia-state-content .navbar {
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2px 50px;
+    border: 2px solid #000;
+    outline-offset: 2px;
+    outline-width: 2px;
+    outline-color: #000;
+    outline-style: solid;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 40px!important;
 }
-.sv_main .utah-ins-content .logo-container {
-  margin-right: 20px;
-}
-.sv_main .utah-ins-content .logo-container img {
-    height: 120px;
-    width: 92px;
+.sv_main .virginia-state-content .logo-container img {
+    width: 130px;
+    height: 130px;
     object-fit: cover;
 }
-
-.sv_main .utah-ins-content .main-content{
-  margin-left: 112px;
-}
-.sv_main .utah-ins-content .lh-135{
-  line-height: 1.35;
-}
-.sv_main .top-bar{
-  border-bottom: 3px solid #222;
-}
-.sv_main .utah-ins-content .round-border {
-    border: 1px solid #000;
-    border-radius: 10px;
-    min-height: 60px;
-    padding: 5px;
-    box-sizing: border-box;
-}
-.sv_main .utah-ins-content .form-title-container {
-    display: flex;
-    align-items: center;
-    height: 35px;
-    border: 2px solid #47464a;
-    box-sizing: border-box;
-  }
-.sv_main .utah-ins-content .form-title {
-    background: #47464a;
-    padding: 7px 30px;
-    width: 100%;
-    font-weight: bold;
-    color: #fff;
-}
-.sv_main .utah-ins-content .form-sl {
+.sv_main .virginia-state-content .nav-content ul li{
   font-weight: bold;
-  padding: 7px 20px;
+  margin-bottom: 2px;
 }
-.sv_main .label-sm{
-  font-size: 0.75em;
-  margin-left: 5px;
+.sv_main .virginia-state-content .form-title {
+  font-size: 1.25em;
 }
-.sv_main .text-right{
-  text-align: right;
-  font-size: 0.95em;
+.sv_main .w-20 {
+    width: 20%!important;
 }
-.sv_main .w-25 {
-  width: 25% !important;
+.sv_main .w-30{
+    width: 30%!important;
+}
+.sv_main .w-40{
+    width: 40%!important;
+}
+.sv_main .disc-list {
+    list-style: disc!important;
+    padding-left: 30px!important;
 }
 
-.sv_main .w-50 {
-  width: 50% !important;
+.sv_main .number-list li{
+  margin-bottom: 5px;
+}
+.sv_main .border-all{
+  border: 2px solid #000;
+}
+.sv_main .pxy-10{
+  padding: 10px;
+}
+.sv_main .blankbox-100{
+  width: 100%;
+  height: 100px;
+}
+.sv_main .blankbox-200{
+  width: 100%;
+  height: 200px;
+
+}
+.sv_main .pr-5{
+  position: relative;
+  top: -5px;
+}
+.sv_main .lh-130{
+  line-height: 1.3;
+}
+.sv_main .checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: 20px;
 }
 
-.sv_main .w-60 {
-  width: 60% !important;
+.sv_main .checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-.sv_main .footer-text{
-  font-size: .85em!important;
-}
-.sv_main .footer-text-sm{
-  font-size: .7em!important;
-}
+
 .sv_main input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
-  margin-top: 1px;
-  cursor: pointer;
-}
-.sv_main input[type="radio"] {
   width: 18px;
   height: 18px;
-  margin-top: 1px;
   cursor: pointer;
 }
-.sv_main .gray-box{
-  background: #47464a54;
-  padding: 5px;
-}
-.sv_main .flex-start {
-    align-items: flex-start!important;
-}
-.sv_main .border-bottom-2{
-  border-bottom: 2px solid #000;
-}
-.sv_main .custom-mr-30 {
-  margin-right: 30px !important;
-}
-.sv_main .mt-5{
-  margin-top: 5px!important;
-}
-.sv_main .box{
-  width: 100%;
-}
-.sv_main .custom-ml-50 {
-  margin-left: 50px !important;
-}
 
-.sv_main .custom-ml-100 {
-  margin-left: 100px !important;
+.sv_main .align-i-center{
+  align-items: center!important;
 }
-.sv_main .align-i-center {
-  align-items: center !important;
+.sv_main .underline{
+  text-decoration: underline;
 }
-
+.sv_main .custom-mr-30{
+  margin-right: 30px!important;
+}
+.sv_main .custom-ml-50{
+  margin-left: 50px!important;
+}
+.sv_main .flex-start{
+      align-items: flex-start!important;
+}
 .sv_main .justify-content-end {
   justify-content: flex-end;
-}
-
-.sv_main .custom-form-control::placeholder {
-  color: #000;
 }
 
 /*End new  */
