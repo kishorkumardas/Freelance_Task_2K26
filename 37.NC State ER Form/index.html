@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://natera.auxiform.com/auxisurvey/content/maz_form.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="sv_main ">
+    <div class="page-wrapper">
+        <div class="container">
+
+            <div class="nc-state-content">
+                <!-- Page One Content  -->
+                <div class="page-one custom-mb-50">
+                    <div class="nc-navbar">
+                        <img src="./images/NC_Dept_Ins_Logo.png" alt="NC Department of Insurance Logo">
+                    </div>
+                    <div class="main-container">
+                        <h3 class="custom-mb-15">External Review Request Form</h3>
+                        <div class="form-group d-flex align-i-end custom-mb-15">
+                            <label class="text-nowrap">Today's Date:</label>
+                            <input type="text" class="custom-form-control border-bottom-1 w-25"
+                                placeholder="{SignatureDate}" disabled>
+                        </div>
+                        <p class="expedited-notice font-bold custom-mb-25">If you are requesting an Expedited
+                            External Review, your provider must complete and sign ATTACHMENT A: PHYSICIAN CERTIFICATION
+                            FORM and submit at the same time with the External Review Request Form.</p>
+                        <div class="custom-mb-35">
+                            <p class="text-underline font-bold custom-mb-15">Information on Covered Person (person who
+                                was denied the services)</p>
+                            <div class="row">
+                                <div class="col-md-12 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Name:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="${LastName}, ${FirstName}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-10">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap custom-mr-20">Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                            disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-15">
+                                    <div class="form-group custom-ml-85">
+                                        <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                            disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-10">
+                                    <div class="d-flex align-i-end gap-20">
+                                        <div class="form-group d-flex align-i-end">
+                                            <label class="text-nowrap custom-mr-20">Telephone:</label>
+                                            <span class="custom-mr-5">(H)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(W)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-20">
+                                    <div class="d-flex align-i-end custom-ml-100 gap-20">
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(Cell)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(Fax)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Email Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                            disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-7"></div>
+                                <div class="col-md-5 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Date of Birth:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="${DateOfBirth}" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                                <div class="col-md-4 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">County:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                            disabled>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-mb-20">
+                            <p class="text-underline font-bold custom-mb-15">Information on the Person Who is Authorized
+                                to Manage This Request for Covered Person</p>
+                            <div class="row">
+                                <div class="col-md-12 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Name:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="${RepName} at Natera Inc." disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-10">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap custom-mr-20">Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="P O BOX 889037 " disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-15">
+                                    <div class="form-group custom-ml-85">
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="Los Angeles, CA 90088" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-10">
+                                    <div class="d-flex align-i-end gap-20">
+                                        <div class="form-group d-flex align-i-end">
+                                            <label class="text-nowrap custom-mr-20">Telephone:</label>
+                                            <span class="custom-mr-5">(H)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="650-249-9090" disabled>
+                                        </div>
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(W)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 custom-mb-20">
+                                    <div class="d-flex align-i-end custom-ml-100 gap-20">
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(Cell)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="" disabled>
+                                        </div>
+                                        <div class="form-group d-flex align-i-end">
+                                            <span class="custom-mr-5">(Fax)</span>
+                                            <input type="text" class="custom-form-control border-bottom-1 "
+                                                placeholder="650-590-6998" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Email Address:</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="doiexternalreview@natera.com" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-6"></div>
+                                <div class="col-md-12 custom-mb-15">
+                                    <div class="form-group d-flex align-i-end px-0">
+                                        <label class="text-nowrap">Relationship to Covered Person (person who was denied
+                                            health services):</label>
+                                        <input type="text" class="custom-form-control border-bottom-1"
+                                            placeholder="Provider Of Service" disabled>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="check-item flex-start custom-mb-15">
+                            <div>
+                                <input type="checkbox" checked disabled>
+                            </div>
+                            <span class="font-bold">By Checking this Box, I attest that I have obtained permission
+                                from the covered person to handle this external review on his/her behalf.</span>
+                        </div>
+
+                        <p class="font-bold custom-mb-10 lh-135">**IF YOU ARE A LEGAL GUARDIAN, POWER OF ATTORNEY OR
+                            EXECUTOR, PLEASE ENCLOSE/ATTACH THE APPROPRIATE DOCUMENTS SHOWING YOUR AUTHORITY TO ACT ON
+                            BEHALF OF THE COVERED PERSON.</p>
+                        <p class="page-number">Page 1 – 2019</p>
+
+                    </div>
+                </div>
+                <!--End Page One Content  -->
+                <!-- Page Two Content-->
+                <div class="page-two custom-mb-50">
+                    <div class="custom-mb-20">
+                        <p class="custom-mb-15">Information about doctor or provider who is performing
+                            or recommending the service</p>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Practice:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Address:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4 custom-mb-10">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Telephone:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group d-flex align-i-end custom-ml-10">
+                                    <label class="text-nowrap">Ext.</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group d-flex align-i-end custom-ml-10">
+                                    <label class="text-nowrap">Fax:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 " placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <p class="text-underline font-bold custom-mb-15">About the Service that was Denied</p>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">The service that was denied is:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${TestName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="d-flex align-i-center">
+                                    <span class="w-60 custom-mr-30">The service in question has already been
+                                        provided:</span>
+                                    <input type="checkbox" class="custom-mr-10" disabled checked>
+                                    <span class="custom-mr-5">Yes</span>
+                                    <input type="checkbox" class="custom-mr-5" disabled>
+                                    <span class="custom-mr-5">No</span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="d-flex align-i-center">
+                                    <span class="w-60 custom-mr-30">I have completed all levels of appeal offered by
+                                        my
+                                        insurer:</span>
+                                    <input type="checkbox" class="custom-mr-10" disabled>
+                                    <span class="custom-mr-5">Yes</span>
+                                    <input type="checkbox" class="custom-mr-5" disabled>
+                                    <span class="custom-mr-5">No</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="custom-mb-20">
+                        <p class="text-underline font-bold custom-mb-15">Insurance Information</p>
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Insurance Company Name as it Appears on Card:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-10 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Policy Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1"
+                                        placeholder="${MemberName}" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Group Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-11 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap font-bold text-underline custom-mr-10">Policy Holder
+                                        Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Relation to Covered Person:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-11 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Policy Holder Birth Date:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-10 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Phone Number:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-11 custom-mb-10">
+                                <div class="form-group d-flex align-i-end px-0">
+                                    <label class="text-nowrap">Employer/Group Name:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1" placeholder=""
+                                        disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="custom-mb-20">
+                        <p class="text-underline font-bold custom-mb-15">About the External Review I am Requesting:</p>
+                        <p class="font-bold custom-mb-10">Description of Disagreement:</p>
+                        <div class="disagreement-box custom-mb-35">
+                            <input type="text" class="custom-form-control" placeholder="" disabled>
+                        </div>
+
+                        <div class="check-item custom-mb-10">
+                            <input type="checkbox" disabled checked>
+                            <span>I am requesting a Standard External Review, OR</span>
+                        </div>
+
+                        <div class="check-item flex-start custom-mb-5">
+                            <div><input type="checkbox" disabled></div>
+                            <span class="lh-135">I am requesting an Expedited External Review and:</span>
+                        </div>
+
+                        <div class="custom-mb-10">
+                            <ul class="disc-check-item custom-mb-5">
+                                <li class="custom-mb-5">The requested service has not already been provided;</li>
+                                <li>The covered person (check the applicable box):</li>
+                            </ul>
+
+                            <div class="indent-block flex-start custom-mb-10">
+                                <div class="custom-mr-10"><input type="checkbox" disabled></div>
+                                <ul>
+                                    <li class="custom-mb-5"><span class="custom-mr-10">1) </span> Has received a
+                                        noncertification decision;</li>
+                                    <li class="lh-135 custom-mb-5"><span class="custom-mr-10">2)</span> Has filed a
+                                        request for an expedited appeal with the
+                                        insurer as required by NC law, a copy of which is enclosed/attached, or
+                                        date verbally requested to insurer:
+                                        <input type="text" class="custom-form-control border-bottom-1 pr-5 w-25"
+                                            placeholder="" disabled>; and
+                                    </li>
+                                    <li class="custom-mb-10 lh-135">
+                                        <span class="custom-mr-10">3)</span> <span
+                                            class="text-underline tdt-1">ATTACHMENT A– PHYSICIAN CERTIFICATION
+                                            FORM</span>
+                                        has been completed and is enclosed/attached.
+                                    </li>
+                                    <p>OR</p>
+                                </ul>
+                            </div>
+                            <div class="indent-block custom-mb-10">
+                                <div class="check-item flex-start custom-mb-10">
+                                    <div><input type="checkbox" disabled></div>
+                                    <span class="lh-135">1) Has received an appeal decision upholding a
+                                        noncertification;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="page-number">Page 2 – 2019</p>
+                </div>
+                <!-- End Page Two Content -->
+                <!-- Page Three Three Content  -->
+                <div class="page-three custom-mb-50">
+                    <div class="indent-block custom-mb-25">
+                        <ul>
+                            <li class="lh-135 custom-mb-5"><span class="custom-mr-10">2)</span> has filed a request
+                                for an expedited second-level grievance review of the noncertification as
+                                required by NC law, a copy of which is enclosed/attached or date verbally requested
+                                to
+                                insurer:
+                                <input type="text" class="custom-form-control border-bottom-1 pr-5 w-25" placeholder=""
+                                    disabled>; and
+                            </li>
+                            <li class="custom-mb-10 lh-135">
+                                <span class="custom-mr-10">3)</span> <span class="text-underline tdt-1">ATTACHMENT
+                                    A–
+                                    PHYSICIAN CERTIFICATION FORM</span>
+                                has been completed and is enclosed/attached.
+                            </li>
+                            <p>OR</p>
+                        </ul>
+                    </div>
+                    <div class="indent-block flex-start custom-mb-25">
+                        <div class="custom-mr-10"><input type="checkbox" disabled></div>
+                        <ul>
+                            <li class="custom-mb-5"><span class="custom-mr-10">1) </span> Has received a
+                                second-level grievance review determination upholding a noncertification
+                                decision; and </li>
+
+                            <li class="custom-mb-10 lh-135">
+                                <span class="custom-mr-10">2)</span> <span class="text-underline tdt-1">ATTACHMENT
+                                    A– PHYSICIAN CERTIFICATION
+                                    FORM</span>
+                                has been completed and is enclosed/attached.
+                            </li>
+                            <p>OR</p>
+                        </ul>
+                    </div>
+                    <div class="indent-block flex-start custom-mb-15">
+                        <div class="custom-mr-10"><input type="checkbox" disabled></div>
+                        <ul>
+                            <li class="custom-mb-5"><span class="custom-mr-10">1) </span> Has received a
+                                second-level grievance review determination upholding a noncertification
+                                decision; and </li>
+
+                            <li class="custom-mb-10 lh-135">
+                                <span class="custom-mr-10">2)</span> The second-level grievance concerns a
+                                noncertification of an admission, availability of care,
+                                continued stay, or health care service for which the covered person received
+                                emergency
+                                services, but has not been discharged from a facility.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="custom-mb-20">
+                        <p class="text-underline font-bold custom-mb-15">Check list</p>
+                        <div class="check-item custom-mb-10">
+                            <input type="checkbox" disabled>
+                            <span>I have enclosed/attached a copy of my insurance card.</span>
+                        </div>
+                        <div class="check-item custom-mb-10">
+                            <input type="checkbox" disabled>
+                            <span>I have enclosed / attached a copy of the final denial from my insurer.</span>
+                        </div>
+                        <div class="check-item flex-start custom-mb-10">
+                            <div><input type="checkbox" disabled></div>
+                            <span>I have enclosed / attached medical records, radiology reports, test results
+                                specific
+                                to the denial.</span>
+                        </div>
+                        <div class="check-item custom-mb-10">
+                            <input type="checkbox" disabled>
+                            <span>I have provided a description of the disagreement.</span>
+                        </div>
+                        <div class="check-item flex-start custom-mb-10">
+                            <div><input type="checkbox" disabled></div>
+                            <span>I have submitted 3 copies of any CD's that contain my medical records and/or
+                                x-rays.</span>
+                        </div>
+                        <div class="check-item flex-start custom-mb-10">
+                            <div><input type="checkbox" disabled></div>
+                            <span class="lh-135">IF REQUIRED, I have provided a copy of the request for an expedited
+                                appeal or expedited second-level grievance review to the insurer, or the date the
+                                request was made to the insurer.</span>
+                        </div>
+                        <div class="check-item flex-start custom-mb-20">
+                            <div><input type="checkbox" disabled></div>
+                            <p class="lh-135">IF REQUIRED, I have provided a completed copy of <span
+                                    class="text-underline tdt-1">ATTACHMENT A–
+                                    PHYSICIAN CERTIFICATION FORM.</span> </p>
+                        </div>
+                    </div>
+
+                    <div class="custom-mb-20">
+                        <p class="font-bold custom-mb-15">MEDICAL AUTHORIZATION RELEASE</p>
+                        <p class="lh-135 custom-mb-15">The undersigned individual has requested an External Review
+                            pursuant to Part 4 of Article 50 of Chapter 58 of the NC General Statutes. In order to
+                            perform that review, the undersigned authorizes the North Carolina Department of
+                            Insurance
+                            ("NCDOI") to obtain from the Health Plan, whose decision is the subject of this request,
+                            and their subcontractors, all information relating to the decision which is being
+                            reviewed
+                            including, but not limited to, his/her files and medical record information, which may
+                            include mental health information. Payment of fees for obtaining these records is the
+                            responsibility of the undersigned. The undersigned also authorizes the NCDOI to provide,
+                            or to
+                            instruct the Health Plan and/or its subcontractors to provide, such information to the
+                            Independent Review Organization ("IRO") assigned by NCDOI to perform the External
+                            Review.</p>
+
+                        <p class="custom-mb-10">The undersigned also acknowledges the following:</p>
+                        <ul class="bullet-list lh-135 custom-mb-15">
+                            <li class="custom-mb-10">The undersigned consents to the use of a translation service to
+                                translate any contents of this document that are submitted in a language other than
+                                English. The use of the translation service shall be at the expense of Smart NC,
+                                which
+                                shall treat the provided information as confidential.</li>
+                        </ul>
+                    </div>
+                    <p class="page-number">Page 3 – 2019</p>
+                </div>
+                <!-- End Three Content  -->
+                <!-- Page Four Content  -->
+                <div class="page-four custom-mb-50">
+                    <ul class="bullet-list lh-135 custom-mb-20">
+                        <li class="custom-mb-10">NCDOI and/or the IRO may not be subject to the federal regulation
+                            pertaining to confidentiality and disclosure of medical records known as HIPAA. Despite
+                            the
+                            fact that HIPPA does not preclude NCDOI from re-disclosing medical record information,
+                            NCDOI and its agents are prohibited by North Carolina State law, specifically NCGS
+                            58-2-105, from doing so for any purpose other than the review.</li>
+                        <li class="custom-mb-10">The undersigned may revoke this authorization at any time. The
+                            revocation will be effective upon receipt by NCDOI but will not affect actions already
+                            taken on the basis of this authorization. In any event, this authorization will
+                            automatically expire upon NCDOI and/or the IRO rendering a final decision regarding this
+                            External Review.</li>
+                    </ul>
+                    <div class="bordered-table custom-mb-20">
+                        <div class="row">
+                            <div class="col-md-12 custom-mb-15">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Print Name</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 custom-mb-5"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12 custom-mb-15">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">Signature</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 custom-mb-5"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group d-flex align-i-end">
+                                    <label class="text-nowrap">DATE</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 custom-mb-5"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-mb-20">
+                        <p class="font-bold text-center custom-mb-10">ACKNOWLEDGMENT OF RELEASE OF DRUG OR ALCOHOLABUSE
+                            RECORDS</p>
+                        <p class="lh-135 custom-mb-15">This area must be signed by the patient or patient's
+                            authorized
+                            representative only when the records relating to the denied service contain information
+                            relating to drug or alcohol abuse. This should be signed in addition to the Medical
+                            Authorization Release.</p>
+                        <p class="lh-135">I acknowledge that information to be used or disclosed as a
+                            result of this Authorization may include records that are protected by federal and/or
+                            state
+                            laws applicable to substance abuse. I SPECIFICALLY AUTHORIZE THE RELEASE OF CONFIDENTIAL
+                            INFORMATION RELATING TO DRUG AND/OR ALCOHOL ABUSE. The recipient of drug and/or alcohol
+                            abuse information disclosed as a result of this Authorization will need my further
+                            written
+                            authorization to re-disclose this information.</p>
+                    </div>
+                    <div class="bordered-table ">
+                        <p>Signature of patient or authorized representative, parent
+                            if patient is a minor, or Power of Attorney if Applicable</p>
+                        <div class="row ">
+                            <div class="col-md-9 custom-mb-15">
+                                <div class="form-group d-flex align-i-end">
+                                    <label>Applicable:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 custom-mb-5"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="form-group d-flex align-i-end">
+                                    <label>Date:</label>
+                                    <input type="text" class="custom-form-control border-bottom-1 custom-mb-5"
+                                        placeholder="" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blankbox-200"></div>
+                    <p class="page-number">Page 4 – 2019</p>
+                </div>
+                <!-- End Page Four Content  -->
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
