@@ -1,0 +1,337 @@
+body {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.page-wrapper {
+  padding: 50px;
+}
+
+/* new  */
+.sv_main .south-dakota-content .form-title {
+  font-size: 1.35em;
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+.sv_main .south-dakota-content .checklist-box {
+  margin-bottom: 200px;
+}
+
+.sv_main .south-dakota-content .checklist-box ul {
+  padding-left: 20px !important;
+}
+
+.sv_main .south-dakota-content .checklist-box ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.sv_main .south-dakota-content .checklist-box ul li::before {
+  content: "☐";
+  font-size: 1.1em;
+  flex-shrink: 0;
+  position: relative;
+  top: -3px;
+}
+
+.sv_main .border-form {
+  border: 1px solid #000;
+}
+
+.sv_main .form-group {
+  padding: 5px 10px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.sv_main .h-auto {
+  height: auto !important;
+}
+
+.sv_main .p2-form-title {
+  text-align: center;
+  font-size: 2.2em;
+  margin-top: 8px;
+}
+
+.sv_main .address-list {
+  padding-left: 10px;
+  padding-top: 5px;
+  line-height: 1.3;
+}
+
+.sv_main .border-right {
+  border-right: 1px solid #000;
+}
+
+.sv_main .py-6 {
+  padding-bottom: 6px !important;
+  padding-top: 6px !important;
+}
+
+.sv_main .py-15 {
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+}
+
+.sv_main .gap-10 {
+  gap: 10px;
+}
+
+.sv_main .order-list {
+  list-style: circle !important;
+  padding-left: 50px !important;
+}
+
+.sv_main .order-list li {
+  margin-bottom: 5px;
+}
+
+.sv_main .px-10 {
+  padding: 0 10px;
+}
+
+.sv_main .w-25 {
+  width: 25% !important;
+}
+
+.sv_main .w-50 {
+  width: 50% !important;
+}
+
+.sv_main .lh-135 {
+  line-height: 1.35;
+}
+
+
+.sv_main input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.sv_main input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.sv_main .text-underline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.sv_main .border-bottom-2 {
+  border-bottom: 2px solid #000;
+}
+
+.sv_main .custom-ml-50 {
+  margin-left: 50px !important;
+}
+
+.sv_main .custom-ml-100 {
+  margin-left: 100px !important;
+}
+
+.sv_main .custom-mb-35 {
+  margin-bottom: 35px !important;
+}
+
+.sv_main .flex-start {
+  align-items: flex-start !important;
+}
+
+.sv_main .align-i-center {
+  align-items: center !important;
+}
+
+.sv_main .justify-content-end {
+  justify-content: flex-end;
+}
+
+.sv_main .custom-form-control::placeholder {
+  color: #000;
+}
+
+/*End new  */
+
+
+
+
+/* For html page layout not neccessary for survey js form  */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 862px;
+    padding: 0 50px;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .container {
+    width: 1000px;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+}
