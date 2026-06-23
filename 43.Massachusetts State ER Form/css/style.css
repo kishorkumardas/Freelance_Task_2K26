@@ -95,6 +95,7 @@ body {
 .sv_main .massachusetts-state-content .footer{
   display: flex;
   justify-content: space-between;
+  font-size: 0.9em;
 }
 .sv_main .massachusetts-state-content .footer span{
     font-size: 0.9em;
@@ -137,11 +138,23 @@ body {
     align-items: center;
     gap: 6px;
 }
+.sv_main .p7-nav-content {
+  color: #333399;
+  font-style: italic;
+}
+
+.sv_main .p7-nav-content .title{
+  font-size: 1.25em;
+}
+.sv_main .p7-nav-content p{
+  font-size: 1.05em;
+}
 .sv_main .fpl-table {
     border-collapse: collapse;
-    width: 60%;
+    width: 450px;
     margin: auto;
-    font-size: 0.9em;
+    border: 2px solid #000;
+
 }
 .sv_main .fpl-table th, .sv_main .fpl-table td {
     padding: 10px;
@@ -150,7 +163,6 @@ body {
 
 .sv_main .fpl-table thead th {
     font-weight: bold;
-    background: #f0f0f0;
 }
 .sv_main .h-60{
   min-height: 60px;
@@ -163,7 +175,12 @@ body {
   border: 1px solid #000;
 }
 .sv_main .border-all-2{
-  border: 2px solid #000;
+  border: 1px solid #000;
+  outline: 1px solid #000;
+  outline-offset: 2px;
+}
+.sv_main .gap-10{
+  gap: 10px;
 }
 .sv_main .border-right{
   border-right: 1px solid #000;
